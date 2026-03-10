@@ -39,7 +39,7 @@ resource "aws_route_table_association" "rta2" {
   route_table_id = aws_route_table.RT.id
 }
 
-resource "aws_vpc" "mainvpc" {
+resource "aws_vpc" "myvpc" {
   cidr_block = "10.1.0.0/16"
 }
 
